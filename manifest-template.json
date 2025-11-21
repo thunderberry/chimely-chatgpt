@@ -1,0 +1,35 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Chimely Timer",
+  "name_for_model": "chimely_timer",
+  "description_for_human": "A calm, dual-ring focus timer with customizable chimes.",
+  "description_for_model": "Start, pause, resume, stop, schedule, and monitor a dual-ring focus timer with optional interval chimes and notes.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://YOUR_DOMAIN/.well-known/openapi.yaml"
+  },
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": "https://YOUR_DOMAIN/legal",
+  "terms_of_service_url": "https://YOUR_DOMAIN/terms",
+  "privacy_policy_url": "https://YOUR_DOMAIN/privacy",
+  "tools": [
+    "create_timer",
+    "control_timer",
+    "get_timer_status",
+    "list_history",
+    "schedule_timer"
+  ],
+  "ui": {
+    "panels": [
+      {
+        "name": "timer",
+        "title": "Chimely",
+        "description": "Control your focus timer and see progress.",
+        "visible": true
+      }
+    ]
+  }
+}
